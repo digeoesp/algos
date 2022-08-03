@@ -20,7 +20,8 @@ console.log(twoNumberSum(` ${nums}, ${target}`));
 
 
 ////////////sorted square array 
-
+// this function will square and sort the array if the num is 8 it will return 81 and so on
+// it will return a sorted array 
 function sortedSquaredArray(array) {
     const sortedSquares = []
     for (let idx = 0; idx < array.length; idx++) {
