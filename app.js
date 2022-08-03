@@ -8,6 +8,8 @@ function twoNumberSum(nums, target) {
             secondNum = nums[j];
             if (firstNum + secondNum === target) {
                 return [firstNum, secondNum];
+            } else {
+
             }
         }
     }
