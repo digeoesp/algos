@@ -18,3 +18,17 @@ function twoNumberSum(nums, target) {
 
 console.log(twoNumberSum(` ${nums}, ${target}`));
 
+
+////////////sorted square array 
+
+function sortedSquaredArray(array) {
+    const sortedSquares = []
+    for (let idx = 0; idx < array.length; idx++) {
+        const value = array[idx];
+        sortedSquares[idx] = value * value;
+    }
+    sortedSquares.sort((a, b) => a - b);
+    return sortedSquares;
+}
+
+console.log(sortedSquaredArray([1, 2, 3, 4, 5, 6]))
